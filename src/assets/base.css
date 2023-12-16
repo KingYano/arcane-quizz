@@ -1,54 +1,43 @@
-/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 :root {
-  --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
+  /*========== Colors ==========*/
+  --first-color: #F8F8F8;
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+  --border-color: #EAEAEA;
 
-  --vt-c-indigo: #2c3e50;
+  --banner-header-color: rgba(217, 217, 217, 0.10);
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  --circle-primary-color: #D8FF19;
+  --circle-secondary-color: #202020;
 
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --response-primary-color: #090909;
+  --response-danger-color: #E50914;
+  --response-sucess-color: #1B5E20;
+
+
+  --background-primary-color: #1E1E1E;
+  --background-linear-color: linear-gradient(180deg, #090909 0%, #313131 100%);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  --extra-font: 3rem;
+  --big-font: 2.8125rem;
+  --normal-font: 1.25em;
+  --small-font: 0.75rem;
+
+   /*========== Border Radius ==========*/
+  --extra-boder-radius: 100px;
+  --big-border-radius: 45px;
+  --normal-border-radius: 20px;
+  --small-border-radius: 10px;
+
+   /*========== Font weight ==========*/
+  --nomarl-font-weight: 600;
+  --nomarl-font-weight: 700;
 }
 
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
-}
 
 *,
 *::before,
@@ -60,13 +49,11 @@
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
+  color: var(--first-color);
+  background: var(--background-primary-color);
   line-height: 1.6;
   font-family:
+    Poppins,
     Inter,
     -apple-system,
     BlinkMacSystemFont,
