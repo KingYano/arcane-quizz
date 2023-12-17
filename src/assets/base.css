@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 :root {
   /*========== Colors ==========*/
   --first-color: #F8F8F8;
@@ -22,22 +21,21 @@
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
-  --extra-font: 3rem;
-  --big-font: 2.8125rem;
-  --normal-font: 1.25em;
-  --small-font: 0.75rem;
+  --extra-font: 3rem; /* 50px */
+  --big-font: 2.8125rem; /* 45px */
+  --normal-font: 1.25em; /* 20px */
+  --small-font: 0.75rem; /* 12px */
 
-   /*========== Border Radius ==========*/
+  /*========== Border Radius ==========*/
   --extra-boder-radius: 100px;
   --big-border-radius: 45px;
   --normal-border-radius: 20px;
   --small-border-radius: 10px;
 
-   /*========== Font weight ==========*/
+  /*========== Font weight ==========*/
   --nomarl-font-weight: 600;
   --nomarl-font-weight: 700;
 }
-
 
 *,
 *::before,

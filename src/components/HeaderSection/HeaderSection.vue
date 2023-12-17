@@ -3,14 +3,14 @@
     <div class="header">
         <div class="header__container">
             <div class="header__option">
-                <i class="ri-menu-fill"></i>
+                <i class="ri-menu-fill icone"></i>
             </div>
-            <div class="container__logo">
-                <img src="../../assets/logo/logo_arcane.svg" alt="logo de la série Arcane">
+            <div class="header__logo">
+                <img class="img" src="../../assets/logo/logo_arcane.svg" alt="logo de la série Arcane">
             </div>
-            <div class="container__redirection">
-                <p>Disponible maintenant</p>
-                <img src="../../assets/logo/logo_netflix.svg" alt="logo Netflix">
+            <div class="header__redirection">
+                <p class="subtitle">Disponible maintenant</p>
+                <img class="img" src="../../assets/logo/logo_netflix.svg" alt="logo Netflix">
             </div>
         </div>
     </div>
@@ -22,5 +22,5 @@
 </script>
 
 <style lang="scss">
-
+    @import './HeaderSection.scss'
 </style>
