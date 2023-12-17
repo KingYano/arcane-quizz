@@ -1,6 +1,5 @@
 <template>
-  <header>
-    <div class="header">
+    <header class="header">
         <div class="header__container">
             <div class="header__option">
                 <i class="ri-menu-fill icone"></i>
@@ -13,8 +12,7 @@
                 <img class="img" src="../../assets/logo/logo_netflix.svg" alt="logo Netflix">
             </div>
         </div>
-    </div>
-  </header>
+    </header>
 </template>
 
 <script setup lang="ts">

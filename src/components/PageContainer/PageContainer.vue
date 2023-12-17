@@ -1,39 +1,15 @@
 <template>
-  <div class="container">
+  <div class="page-container">
     <HeaderSection></HeaderSection>
+    <MainSection></MainSection>
   </div>
 </template>
 
 <script setup lang="ts">
   import HeaderSection from '../HeaderSection/HeaderSection.vue';
+  import MainSection from '../MainSection/MainSection.vue';
 </script>
 
 <style lang="scss">
-    .container {
-        height: 95%;
-        width: 95%;
-        border-radius: 45px;
-        border: 1px solid #D8FF19;
-        background: url('../../assets/background/backgroung_1.jpg') no-repeat;
-        background-size: cover;
-        background-color: var(--background-primary-color);
-        background-position: right 20% top 10%;
-    }
-
-    @media only screen and (min-width: 800px) {
-        .container {
-            background-color: var(--background-primary-color);
-            background: url('../../assets/background/backgroung_1.jpg') no-repeat;
-            background-size: cover;
-        }
-    }
-
-    @media only screen and (min-width: 1400px) {
-        .container {
-            background-color: var(--background-primary-color);
-            background: url('../../assets/background/backgroung_1.jpg') no-repeat;
-            background-size: cover;
-            background-position: right 30% top 10%;
-        }
-    }
+    @import './PageContainer.scss';
 </style>
