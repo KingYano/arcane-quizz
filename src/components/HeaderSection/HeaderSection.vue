@@ -18,7 +18,11 @@
 </template>
 
 <script lang="ts">
-  console.log('ees')
+    import { defineComponent } from 'vue'
+
+    export default defineComponent({
+    name: 'HeaderSection',
+    })
 </script>
 
 <style lang="scss">
