@@ -17,14 +17,10 @@
   </header>
 </template>
 
-<script lang="ts">
-    import { defineComponent } from 'vue'
+<script setup lang="ts">
 
-    export default defineComponent({
-    name: 'HeaderSection',
-    })
 </script>
 
-<style lang="scss">
+<style setup lang="scss">
     @import './HeaderSection.scss'
 </style>
