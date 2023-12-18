@@ -23,39 +23,5 @@
 </script>
 
 <style lang="scss">
-    .about__card {
-        width: 50px;
-        height: 200px;
-        background-color: var(--banner-header-color);
-        border-radius: var(--extra-boder-radius);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-
-        .about__social {
-            width: 32px;
-            height: 32px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 12px;
-            background: var(--icon-social-color);
-
-            .icon {
-                color: var(--first-color);
-            }
-            &-github {
-
-            }
-
-            &-linkedin {
-
-            }
-
-            &-mailto {
-
-            }
-        }
-    }
+    @import './SocialMedia.scss'
 </style>
