@@ -8,13 +8,15 @@
         </div>
         <div class="main__side-right">
             <SocialMedia></SocialMedia>
+            <QuizzProgression></QuizzProgression>
         </div>
     </div>
   </main>
 </template>
 
 <script setup lang="ts">
-  import SocialMedia from '../SocialMedia/SocialMedia.vue';
+import SocialMedia from '../SocialMedia/SocialMedia.vue';
+import QuizzProgression from '../QuizzProgression/QuizzProgression.vue';
 
 </script>
 
