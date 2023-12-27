@@ -1,0 +1,23 @@
+.progression-container {
+    width: 206px;
+
+.progression {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .bubble {
+        width: 44px;
+        height: 44px;
+        font-size: var(--normal-font);
+        font-weight: var(--nomarl-font-weight);
+        background-color: var(--background-primary-color);
+        color: var(--primary-color);
+        border: 1px solid var(--border-color);
+        border-radius: var(--extra-boder-radius);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+}
