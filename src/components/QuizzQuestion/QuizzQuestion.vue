@@ -1,7 +1,9 @@
 <template>
-  <div class="quizz-container">
-    
-  </div>
+  <main class="main-question">
+    <div class="quizz-container">
+      <QuizzProgression></QuizzProgression>
+    </div>
+  </main>
 </template>
 
 <script setup lang="ts">
@@ -9,5 +11,5 @@
 </script>
 
 <style lang="scss">
-    @import './QuizzQuestion.scss'
+    @import './QuizzQuestion.scss';
 </style>

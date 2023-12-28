@@ -7,6 +7,10 @@
     background-size: cover;
     background-color: var(--background-primary-color);
     background-position: right 20% top 10%;
+
+    &--hidden {
+        background: var(--background-linear-color);
+    }
 }
 
 @media only screen and (min-width: 800px) {
