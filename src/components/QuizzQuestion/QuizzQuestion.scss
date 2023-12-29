@@ -5,4 +5,27 @@
   background: var(--background-primary-color);
   background: url('./../../assets/images/image_1.jpg') no-repeat;
   background-size: cover;
+  background-position: top;
+
+  .quizz-container {
+    display: flex;
+    flex-direction: column;
+
+    .quizz-progression {
+      display: flex;
+      justify-content: center;
+      padding-top: 55px;
+      padding-bottom: 40px;
+    }
+
+    .quizz-texte {
+      padding-bottom: 40px;
+      text-align: center;
+
+      h3 {
+      font-size: var(--normal-font);
+      font-weight: var(--nomarl-font-weight);
+      }
+    }
+  }
 }

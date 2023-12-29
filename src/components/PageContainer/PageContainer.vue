@@ -1,5 +1,5 @@
 <template>
-  <div class="page-container" :class="{'main-section--hidden': !showMainSection}">
+  <div class="page-container" :class="{'page-container--hidden': !showMainSection}">
     <HeaderSection></HeaderSection>
     <MainSection v-if="showMainSection" @play="toggleSection"></MainSection>
     <QuizzQuestion v-if="!showMainSection"></QuizzQuestion>
@@ -15,11 +15,8 @@
 
   const showMainSection = ref(true);
 
-  console.log(showMainSection);
   const toggleSection = () => {
     showMainSection.value = !showMainSection.value;
-    console.log('MDR CLICK', showMainSection);
-
   };
 
 </script>

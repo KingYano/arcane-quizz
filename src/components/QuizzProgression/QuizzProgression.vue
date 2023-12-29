@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { bubbles } from './Data/bubblesData';
+import { bubbles } from '@/components/QuizzProgression/data/bubblesData';
 
 const bubblesRef = ref(bubbles);
 </script>
