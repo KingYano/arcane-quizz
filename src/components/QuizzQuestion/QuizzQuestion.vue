@@ -36,7 +36,6 @@
     if (isAnswerSubmitted.value) {
       return;
     }
-
     selectedAnswer.value = answer;
     isAnswerSubmitted.value = true;
   };
@@ -60,7 +59,6 @@
     } else if (answer === selectedAnswer.value) {
       return 'quizz-response--incorrect';
     }
-
     return '';
   };
 
