@@ -18,6 +18,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        &--correct {
+            background-color: var(--response-sucess-color) !important;
+        }
+
+        &--incorrect {
+            background-color: var(--response-danger-color) !important;
+        }
     }
 }
 }
