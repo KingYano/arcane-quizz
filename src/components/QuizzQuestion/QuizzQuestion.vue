@@ -1,5 +1,5 @@
 <template>
-  <main class="main-question">
+  <main class="main-question" :style="backgroundStyle">
     <div class="quizz-container">
       <div class="quizz-progression">
         <QuizzProgression></QuizzProgression>
@@ -7,22 +7,24 @@
       <div class="quizz-texte">
         <h3>{{ questions[currentQuestionIndex].question }}</h3>
       </div>
-      <div class="quizz-response">
-        <div v-for="(answer, index) in questions[currentQuestionIndex].answers"
+      <div class="quizz-responses">
+        <div class="quizz-response" v-for="(answer, index) in questions[currentQuestionIndex].answers"
              :key="index"
-             :class="getClass(answer)"
+             :class="addingClassAnswer(answer)"
              @click="selectAnswer(answer)">
           {{ answer }}
         </div>
       </div>
-      <button v-if="isAnswerSubmitted" @click="goToNextQuestion">Suivant</button>
+      <div class="quizz-command">
+        <button class="quizz-next-button" v-if="isAnswerSubmitted" @click="goToNextQuestion">Suivant</button>
+      </div>
     </div>
   </main>
 </template>
 
 
 <script setup lang="ts">
-  import { ref } from 'vue';
+  import { ref, computed } from 'vue';
   import QuizzProgression from '../QuizzProgression/QuizzProgression.vue';
   import { questions } from '@/components/QuizzQuestion/data/questionsData';
 
@@ -50,30 +52,26 @@
     }
   };
 
-  const getClass = (answer: string) => {
+  const addingClassAnswer = (answer: string) => {
     if (!isAnswerSubmitted.value) return '';
 
     if (answer === questions[currentQuestionIndex.value].correctAnswer) {
-      return 'correct';
+      return 'quizz-response--correct';
     } else if (answer === selectedAnswer.value) {
-      return 'incorrect';
+      return 'quizz-response--incorrect';
     }
 
     return '';
   };
 
-
+  const backgroundStyle = computed(() => {
+    return {
+      background: `url(./../${questions[currentQuestionIndex.value].imagePath}) no-repeat`
+    };
+  });
 
 </script>
 
 <style lang="scss">
     @import './QuizzQuestion.scss';
-
-    .correct {
-      background-color: green;
-    }
-
-    .incorrect {
-      background-color: red;
-    }
 </style>

@@ -3,9 +3,8 @@
   border-bottom-left-radius: var(--big-border-radius) ;
   border-bottom-right-radius: var(--big-border-radius) ;
   background: var(--background-primary-color);
-  background: url('./../../assets/images/image_1.jpg') no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-size: cover !important;
+  background-position: top !important;
 
   .quizz-container {
     display: flex;
@@ -25,6 +24,42 @@
       h3 {
       font-size: var(--normal-font);
       font-weight: var(--nomarl-font-weight);
+      }
+    }
+
+    .quizz-responses {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+
+      .quizz-response {
+        border-radius: 10px;
+        border: 1px solid #D8FF19;
+        background: #090909;
+        width: 282px;
+        height: 64px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .quizz-response--correct {
+        background-color: green !important;
+      }
+
+      .quizz-response--incorrect {
+        background-color: red !important;
+      }
+    }
+
+    .quizz-command {
+      padding-top: 10px;
+      .quizz-next-button {
+
       }
     }
   }
