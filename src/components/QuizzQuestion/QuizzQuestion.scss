@@ -34,25 +34,25 @@
       gap: 30px;
 
       .quizz-response {
-        border-radius: 10px;
-        border: 1px solid #D8FF19;
-        background: #090909;
         width: 282px;
         height: 64px;
-        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid var(--circle-primary-color);
+        background: var(--response-primary-color);
         font-style: normal;
-        font-weight: 600;
+        font-size: var(--normal-font);
+        font-weight: var(--nomarl-font-weight);
         display: flex;
         justify-content: center;
         align-items: center;
       }
 
       .quizz-response--correct {
-        background-color: green !important;
+        background-color: var(--response-sucess-color) !important;
       }
 
       .quizz-response--incorrect {
-        background-color: red !important;
+        background-color: var(--response-danger-color) !important;
       }
     }
 
