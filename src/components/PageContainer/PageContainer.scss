@@ -9,7 +9,7 @@
     background-position: right 20% top 10%;
 
     &--hidden {
-        background: var(--background-linear-color);
+        background: var(--background-linear-color) !important;
     }
 }
 
