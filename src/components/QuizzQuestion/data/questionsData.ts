@@ -15,13 +15,13 @@ export const questions: Question[] = [
     },
     {
         question: "Quel personnage est un inventeur et un scientifique dans Arcane ?",
-        answers: ["A - Darius", "B - Jayce", "C - Garen", "D - Ezreal"],
+        answers: ["A - Silco", "B - Jayce", "C - Ekko", "D - Ezreal"],
         correctAnswer: "B - Jayce",
         imagePath: "src/assets/images/image_3.jpg",
     },
     {
         question: "Qui est le protecteur et mentor de Caitlyn dans Arcane ?",
-        answers: ["A - Viktor", "B - Heimerdinger", "C - Shen", "D - Marcus"],
+        answers: ["A - Viktor", "B - Hoskel", "C - Salo", "D - Marcus"],
         correctAnswer: "D - Marcus",
         imagePath: "src/assets/images/image_4.jpg",
     },
@@ -32,9 +32,9 @@ export const questions: Question[] = [
         imagePath: "src/assets/images/image_5.jpg",
     },
     {
-        question: "Qui est la dirigeante du Conseil de Piltover dans Arcane ?",
-        answers: ["A - Sejuani", "B - Mel Medarda", "C - Sona", "D - LeBlanc"],
-        correctAnswer: "B - Mel Medarda",
+        question: "Qui est le dirigeant du Conseil de Piltover dans Arcane ?",
+        answers: ["A - Mel Medarda", "B - Heimerdinger", "C - Shoola", "D - Hoskel"],
+        correctAnswer: "B - Heimerdinger",
         imagePath: "src/assets/images/image_6.jpg",
     },
     {
