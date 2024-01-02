@@ -21,6 +21,7 @@
     &__logo {
         .img {
             width: 105px;
+            filter: drop-shadow(1px 3px 1.5px #000000);
         }
     }
 
