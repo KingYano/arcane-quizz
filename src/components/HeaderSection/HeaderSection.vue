@@ -5,11 +5,15 @@
                 <i class="ri-menu-fill icone"></i>
             </div>
             <div class="header__logo">
-                <img class="img" src="../../assets/logo/logo_arcane.svg" alt="logo de la série Arcane">
+                <a href="https://arcane.com/fr-fr/">
+                  <img class="img" src="../../assets/logo/logo_arcane.svg" alt="logo de la série Arcane">
+                </a>
             </div>
             <div class="header__redirection">
                 <p class="subtitle">Disponible maintenant</p>
-                <img class="img" src="../../assets/logo/logo_netflix.svg" alt="logo Netflix">
+                <a href="https://www.netflix.com/fr/title/81435684">
+                  <img class="img" src="../../assets/logo/logo_netflix.svg" alt="logo Netflix">
+                </a>
             </div>
         </div>
     </header>
