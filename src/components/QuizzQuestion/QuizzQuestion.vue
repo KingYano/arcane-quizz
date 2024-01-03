@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div v-if="!quizFinished" class="main-question" :style="backgroundStyle">
+    <div v-if="!quizFinished" class="main-question" :class="`main-question main-question--background_${currentQuestionIndex + 1}`">
       <div class="quizz-container">
         <div class="quizz-progression">
           <QuizzProgression :questionStatus="questionStatus"></QuizzProgression>
@@ -80,11 +80,6 @@
     return '';
   };
 
-  const backgroundStyle = computed(() => {
-    return {
-      background: `url(src/${questions[currentQuestionIndex.value].imagePath}) no-repeat`
-    };
-  });
 </script>
 
 <style lang="scss">

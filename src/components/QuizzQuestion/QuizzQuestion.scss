@@ -6,11 +6,39 @@ main {
     border-bottom-left-radius: var(--big-border-radius) ;
     border-bottom-right-radius: var(--big-border-radius) ;
     background: var(--background-primary-color);
-    //background-size: cover !important;
+    background-size: cover !important;
     background-position: top !important;
 
     &--background_1 {
       background: url("@/assets/images/image_1.webp") no-repeat;
+    }
+
+    &--background_2 {
+      background: url("@/assets/images/image_2.webp") no-repeat;
+    }
+
+    &--background_3 {
+       background: url("@/assets/images/image_3.webp") no-repeat;
+     }
+
+    &--background_4 {
+      background: url("@/assets/images/image_4.webp") no-repeat;
+    }
+
+    &--background_5 {
+      background: url("@/assets/images/image_5.webp") no-repeat;
+    }
+
+    &--background_6 {
+      background: url("@/assets/images/image_6.webp") no-repeat;
+    }
+
+    &--background_7 {
+      background: url("@/assets/images/image_7.webp") no-repeat;
+    }
+
+    &--background_8 {
+      background: url("@/assets/images/image_8.webp") no-repeat;
     }
 
     .quizz-container {
