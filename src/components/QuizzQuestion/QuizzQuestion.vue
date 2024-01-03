@@ -82,7 +82,7 @@
 
   const backgroundStyle = computed(() => {
     return {
-      background: `url(./../${questions[currentQuestionIndex.value].imagePath}) no-repeat`
+      background: `url(src/${questions[currentQuestionIndex.value].imagePath}) no-repeat`
     };
   });
 </script>

@@ -6,7 +6,7 @@ main {
     border-bottom-left-radius: var(--big-border-radius) ;
     border-bottom-right-radius: var(--big-border-radius) ;
     background: var(--background-primary-color);
-    background-size: cover !important;
+    //background-size: cover !important;
     background-position: top !important;
 
     .quizz-container {
@@ -75,6 +75,7 @@ main {
           width: 176px;
           height: 36px;
           font-style: normal;
+          cursor: pointer;
           border-radius: var(--small-border-radius);
           border: 2px solid var(--border-color);
           background: var(--response-primary-color);
