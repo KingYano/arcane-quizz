@@ -18,7 +18,7 @@ const props = defineProps({
 const resultMessage = computed(() => {
   if (props.score === 8) {
     return "Félicitations ! Vous êtes un véritable expert d'Arcane !";
-  } else if (props.score >= 4 && props.score <= 6) {
+  } else if (props.score >= 4 && props.score <= 7) {
     return "Bien joué ! Vous connaissez bien Arcane, mais il y a encore un peu à apprendre.";
   } else if (props.score >= 1 && props.score <= 3) {
     return "Pas mal mais vous pouvez mieux faire. Pourquoi ne pas regarder à nouveau la série ?";

@@ -29,6 +29,10 @@
         top: 66px;
 
         .menu-header {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: -10px;
+
             i {
                 cursor: pointer;
                 font-size: 32px;
