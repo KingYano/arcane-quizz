@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./assets/background/background-desktop-blur_1.jpg') no-repeat;
+    background: url('./assets/background/background-desktop-blur_1.webp') no-repeat;
     background-size: cover;
     background-position: right 20% top 1%;
   }
