@@ -9,6 +9,10 @@ main {
     //background-size: cover !important;
     background-position: top !important;
 
+    &--background_1 {
+      background: url("@/assets/images/image_1.webp") no-repeat;
+    }
+
     .quizz-container {
       height: 100%;
       display: flex;
