@@ -42,8 +42,17 @@
             width: 100%;
             padding: 0 20px;
 
+            .logo-riot {
+                display: flex;
+                align-items: flex-end;
+                padding-bottom: 5px;
+            }
+
+            .quizz-riot-right {
+                width: 20%;
+            }
+
             p {
-                height: 50%;
                 font-size: var(--small-font);
             }
         }
