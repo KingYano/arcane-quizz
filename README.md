@@ -1,4 +1,4 @@
-# arcanequizz
+# Arcane Quizz
 
 This project involves creating an 8-question quiz about the Netflix series "Arcane," based on the League of Legends universe from Riot Games. Each question is designed to test fans' knowledge about the series' intricate details. The quiz automatically calculates the number of correct answers and displays a score at the end. The development is carried out using a modern JavaScript framework, and the design is created in Figma, featuring visual elements inspired by Arcane's aesthetic. Special attention has been given to the user interface, ensuring it is intuitive and immersive, thereby providing a unique and engaging experience for fans of the series.
 
