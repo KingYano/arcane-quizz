@@ -1,6 +1,19 @@
 # arcanequizz
 
-This template should help get you started developing with Vue 3 in Vite.
+This project involves creating an 8-question quiz about the Netflix series "Arcane," based on the League of Legends universe from Riot Games. Each question is designed to test fans' knowledge about the series' intricate details. The quiz automatically calculates the number of correct answers and displays a score at the end. The development is carried out using a modern JavaScript framework, and the design is created in Figma, featuring visual elements inspired by Arcane's aesthetic. Special attention has been given to the user interface, ensuring it is intuitive and immersive, thereby providing a unique and engaging experience for fans of the series.
+
+# Features:
+- Customized display based on the selected questions and answers, enhancing user engagement.
+- Capability for users to select their answers, providing an interactive quiz experience.
+- Automatic display of the correct answer in case of an incorrect response, adding an educational aspect to the quiz.
+- Option to move to subsequent questions, allowing for a smooth user journey through the quiz.
+- Final display of results, giving participants immediate feedback on their performance.
+
+# Technologies Used:
+- Vue3 for the application logic.
+- TypeScript for robust typing and enhanced code maintainability and readability.
+- Sass for styling.
+- Figma for design.
 
 ## Recommended IDE Setup
 
